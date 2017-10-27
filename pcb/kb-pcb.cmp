@@ -1,0 +1,962 @@
+Cmp-Mod V01 Created by Cvpcb (2015-02-08 BZR 2712, Git 229122b)-product   date = 8 - 1 -y 1 : 01 : 22
+
+BeginCmp
+TimeStamp = /55B96447;
+Reference = D1;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B99804;
+Reference = D2;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B99F41;
+Reference = D3;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9A1AE;
+Reference = D4;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9A470;
+Reference = D5;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9AF71;
+Reference = D6;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9B111;
+Reference = D7;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9B96A;
+Reference = D8;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9C41A;
+Reference = D9;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9C65F;
+Reference = D10;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9C84F;
+Reference = D11;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9D13A;
+Reference = D12;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9D3E8;
+Reference = D13;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9D6A5;
+Reference = D14;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B967B5;
+Reference = D15;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9980B;
+Reference = D16;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B99F48;
+Reference = D17;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9A1B5;
+Reference = D18;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9A477;
+Reference = D19;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9AF78;
+Reference = D20;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9B118;
+Reference = D21;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9B971;
+Reference = D22;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9C421;
+Reference = D23;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9C666;
+Reference = D24;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9C856;
+Reference = D25;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9D141;
+Reference = D26;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9D3EF;
+Reference = D27;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9D6AC;
+Reference = D28;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B968A5;
+Reference = D29;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B99812;
+Reference = D30;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B99F4F;
+Reference = D31;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9A1BC;
+Reference = D32;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9A47E;
+Reference = D33;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9AF7F;
+Reference = D34;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9B11F;
+Reference = D35;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9B978;
+Reference = D36;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9C428;
+Reference = D37;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9C66D;
+Reference = D38;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9C85D;
+Reference = D39;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9D148;
+Reference = D40;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9D3F6;
+Reference = D41;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9D6B3;
+Reference = D42;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B969AF;
+Reference = D43;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B99819;
+Reference = D44;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B99F56;
+Reference = D45;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9A1C3;
+Reference = D46;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9A485;
+Reference = D47;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9AF86;
+Reference = D48;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9B126;
+Reference = D49;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9B97F;
+Reference = D50;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9C42F;
+Reference = D51;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9C674;
+Reference = D52;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9C864;
+Reference = D53;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9D14F;
+Reference = D54;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9D3FD;
+Reference = D55;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9D6BA;
+Reference = D56;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B96A7D;
+Reference = D57;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B99820;
+Reference = D58;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B99F5D;
+Reference = D59;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9A1CA;
+Reference = D60;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9A48C;
+Reference = D61;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9B12D;
+Reference = D62;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9B986;
+Reference = D63;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9C67B;
+Reference = D64;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9C86B;
+Reference = D65;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9D156;
+Reference = D66;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9D404;
+Reference = D67;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9D6C1;
+Reference = D68;
+ValeurCmp = D;
+IdModule  = modded_keyboard_components:diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B8C322;
+Reference = S1;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B8C291;
+Reference = S2;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B8C12D;
+Reference = S3;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B8BAB1;
+Reference = S4;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B8BD36;
+Reference = S5;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B8BD80;
+Reference = S6;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B8C378;
+Reference = S7;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B8C506;
+Reference = S8;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B8C55A;
+Reference = S9;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B8C6A4;
+Reference = S10;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B8C8BB;
+Reference = S11;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B8C8FF;
+Reference = S12;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B8CA27;
+Reference = S13;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B8CAFC;
+Reference = S14;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B8E6DB;
+Reference = S15;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B8E6D4;
+Reference = S16;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B8E6CD;
+Reference = S17;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B8E6B8;
+Reference = S18;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B8E6BF;
+Reference = S19;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B8E6C6;
+Reference = S20;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B8E6E2;
+Reference = S21;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B8E6E9;
+Reference = S22;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B8E6F0;
+Reference = S23;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B8E6F7;
+Reference = S24;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B8E6FE;
+Reference = S25;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B8E705;
+Reference = S26;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B8E70C;
+Reference = S27;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B8E713;
+Reference = S28;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B90CEF;
+Reference = S29;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B90CE8;
+Reference = S30;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B90CE1;
+Reference = S31;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B90CCC;
+Reference = S32;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B90CD3;
+Reference = S33;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B90CDA;
+Reference = S34;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B90CF6;
+Reference = S35;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B90CFD;
+Reference = S36;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B90D04;
+Reference = S37;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B90D0B;
+Reference = S38;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B90D12;
+Reference = S39;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B90D19;
+Reference = S40;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B90D20;
+Reference = S41;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B90D27;
+Reference = S42;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B90D51;
+Reference = S43;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B90D4A;
+Reference = S44;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B90D43;
+Reference = S45;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B90D2E;
+Reference = S46;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B90D35;
+Reference = S47;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B90D3C;
+Reference = S48;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B90D58;
+Reference = S49;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B90D5F;
+Reference = S50;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B90D66;
+Reference = S51;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B90D6D;
+Reference = S52;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B90D74;
+Reference = S53;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B90D7B;
+Reference = S54;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B90D82;
+Reference = S55;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B90D89;
+Reference = S56;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B92556;
+Reference = S57;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9254F;
+Reference = S58;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B92548;
+Reference = S59;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B92533;
+Reference = S60;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9253A;
+Reference = S61;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1.75u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9255D;
+Reference = S62;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1.25u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B92564;
+Reference = S63;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1.75u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B92572;
+Reference = S64;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1.25u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B92579;
+Reference = S65;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B92580;
+Reference = S66;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B92587;
+Reference = S67;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B9258E;
+Reference = S68;
+ValeurCmp = cherry-mx-switch-revised;
+IdModule  = modded_keyboard_components:key_1u;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B83751;
+Reference = U1;
+ValeurCmp = TEENSY2.0;
+IdModule  = modded_keyboard_components:TEENSY_2.0;
+EndCmp
+
+EndListe
