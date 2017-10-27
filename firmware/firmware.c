@@ -195,7 +195,7 @@ bool CALLBACK_HID_Device_CreateHIDReport(USB_ClassInfo_HID_Device_t* const HIDIn
                         *ReportSize = sizeof(USB_KeyboardReport_Data_t);
                 }
                 //Returning false lets LUFA determine whether or not to send the report.
-		//Returning true forces sending.
+                //Returning true forces sending.
                 return true;
         }
         else {  //Mouse Report
@@ -215,7 +215,7 @@ bool CALLBACK_HID_Device_CreateHIDReport(USB_ClassInfo_HID_Device_t* const HIDIn
 
                 *ReportSize = sizeof(USB_Mouse_HScrollReport_Data_t);
                 //Returning false sends one mouse movement per mouse keypress.
-		//True enables continuous movement.
+                //True enables continuous movement.
                 return true;
         }
 }
