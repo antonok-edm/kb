@@ -29,16 +29,16 @@ Mouse puts cursor controls on the right side of the keyboard, with cursor speed 
 ## Customizing the keyboard
 My firmware allows for easy remapping of keys on any layer. `layermaps.h` includes the behavior of every key. Each key can take one of the following functions:
 
-| Function | Description                                                                     | Examples                                |
-|----------|---------------------------------------------------------------------------------|-----------------------------------------|
-| HID      | Any standard keyboard key                                                       | a, 1, ;                                 |
-| MOD      | At least one standard keyboard modifier                                         | Left shift, Right control               |
-| MIDI     | Any MIDI pitch                                                                  | C0 to G10                               |
-| FUNC     | Any arbitrary predefined function from the firmware                             | shift MIDI pitch, switch function layer |
-| CLICK    | Execute a click an HID mouse button                                             | left click, middle click, forward/back  |
-| MOUSE    | Move the mouse cursor                                                           | horizontal or vertical                  |
-| SCROLL   | Mouse scroll or pan                                                             | horizontal or vertical                  |
-| HIDMOD   | Any standard keyboard key combined with at least one standard keyboard modifier | ctrl+shift+m, {, ?                      |
+| Function | Description                                                                     | Examples                                                                 |
+|----------|---------------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| HID      | Any standard keyboard key                                                       | <kbd>a</kbd>, <kbd>1</kbd>, <kbd>;</kbd>                                 |
+| MOD      | At least one standard keyboard modifier                                         | <kbd>Left shift</kbd>, <kbd>Right control</kbd>                          |
+| MIDI     | Any MIDI pitch                                                                  | C0 to G10                                                                |
+| FUNC     | Any arbitrary predefined function from the firmware                             | shift MIDI pitch, switch function layer                                  |
+| CLICK    | Execute a click an HID mouse button                                             | left click, middle click, forward/back                                   |
+| MOUSE    | Move the mouse cursor                                                           | horizontal or vertical                                                   |
+| SCROLL   | Mouse scroll or pan                                                             | horizontal or vertical                                                   |
+| HIDMOD   | Any standard keyboard key combined with at least one standard keyboard modifier | <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>m</kbd>, <kbd>{</kbd>, <kbd>?</kbd>|
 
 Once modifications have been made to a layout, the firmware can be reflashed to the keyboard using the standard Teensy programmer over USB. The Teensy's bootloader
 can be accessed without taking apart the keyboard by pressing a predefined key combination. The entire reflashing process takes about 3 seconds in total.
