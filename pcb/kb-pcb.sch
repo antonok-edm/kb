@@ -10,7 +10,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -31,7 +30,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:components
 LIBS:cherry-mx-switch-revised
-LIBS:pcb-cache
+LIBS:kb-pcb-cache
 EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535
@@ -1553,6 +1552,142 @@ F 3 "" H 21900 10550 60  0000 C CNN
 	1    21900 10550
 	0    1    1    0   
 $EndComp
+Text Label 1800 3650 1    60   ~ 0
+GND
+Text Label 1700 3650 1    60   ~ 0
+GND
+$Comp
+L R R1
+U 1 1 5A208FFA
+P 2600 10950
+F 0 "R1" V 2680 10950 50  0000 C CNN
+F 1 "R" V 2600 10950 50  0000 C CNN
+F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to2512_RM10_HandSoldering" V 2530 10950 50  0001 C CNN
+F 3 "" H 2600 10950 50  0000 C CNN
+	1    2600 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 5A2092F3
+P 4100 10950
+F 0 "R2" V 4180 10950 50  0000 C CNN
+F 1 "R" V 4100 10950 50  0000 C CNN
+F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to2512_RM10_HandSoldering" V 4030 10950 50  0001 C CNN
+F 3 "" H 4100 10950 50  0000 C CNN
+	1    4100 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 5A20951A
+P 5600 10950
+F 0 "R3" V 5680 10950 50  0000 C CNN
+F 1 "R" V 5600 10950 50  0000 C CNN
+F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to2512_RM10_HandSoldering" V 5530 10950 50  0001 C CNN
+F 3 "" H 5600 10950 50  0000 C CNN
+	1    5600 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 5A20CE2F
+P 7100 10950
+F 0 "R4" V 7180 10950 50  0000 C CNN
+F 1 "R" V 7100 10950 50  0000 C CNN
+F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to2512_RM10_HandSoldering" V 7030 10950 50  0001 C CNN
+F 3 "" H 7100 10950 50  0000 C CNN
+	1    7100 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R5
+U 1 1 5A20CE35
+P 8600 10950
+F 0 "R5" V 8680 10950 50  0000 C CNN
+F 1 "R" V 8600 10950 50  0000 C CNN
+F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to2512_RM10_HandSoldering" V 8530 10950 50  0001 C CNN
+F 3 "" H 8600 10950 50  0000 C CNN
+	1    8600 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R6
+U 1 1 5A20DE49
+P 10100 10950
+F 0 "R6" V 10180 10950 50  0000 C CNN
+F 1 "R" V 10100 10950 50  0000 C CNN
+F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to2512_RM10_HandSoldering" V 10030 10950 50  0001 C CNN
+F 3 "" H 10100 10950 50  0000 C CNN
+	1    10100 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R7
+U 1 1 5A20DE4F
+P 11600 10950
+F 0 "R7" V 11680 10950 50  0000 C CNN
+F 1 "R" V 11600 10950 50  0000 C CNN
+F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to2512_RM10_HandSoldering" V 11530 10950 50  0001 C CNN
+F 3 "" H 11600 10950 50  0000 C CNN
+	1    11600 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R8
+U 1 1 5A20DE5B
+P 13100 10950
+F 0 "R8" V 13180 10950 50  0000 C CNN
+F 1 "R" V 13100 10950 50  0000 C CNN
+F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to2512_RM10_HandSoldering" V 13030 10950 50  0001 C CNN
+F 3 "" H 13100 10950 50  0000 C CNN
+	1    13100 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R9
+U 1 1 5A20DE61
+P 14600 10950
+F 0 "R9" V 14680 10950 50  0000 C CNN
+F 1 "R" V 14600 10950 50  0000 C CNN
+F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to2512_RM10_HandSoldering" V 14530 10950 50  0001 C CNN
+F 3 "" H 14600 10950 50  0000 C CNN
+	1    14600 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R10
+U 1 1 5A20DE67
+P 16100 10950
+F 0 "R10" V 16180 10950 50  0000 C CNN
+F 1 "R" V 16100 10950 50  0000 C CNN
+F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to2512_RM10_HandSoldering" V 16030 10950 50  0001 C CNN
+F 3 "" H 16100 10950 50  0000 C CNN
+	1    16100 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R11
+U 1 1 5A20E9A9
+P 17600 10950
+F 0 "R11" V 17680 10950 50  0000 C CNN
+F 1 "R" V 17600 10950 50  0000 C CNN
+F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to2512_RM10_HandSoldering" V 17530 10950 50  0001 C CNN
+F 3 "" H 17600 10950 50  0000 C CNN
+	1    17600 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R12
+U 1 1 5A20E9AF
+P 19100 10950
+F 0 "R12" V 19180 10950 50  0000 C CNN
+F 1 "R" V 19100 10950 50  0000 C CNN
+F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to2512_RM10_HandSoldering" V 19030 10950 50  0001 C CNN
+F 3 "" H 19100 10950 50  0000 C CNN
+	1    19100 10950
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	1300 6200 1300 5800
 Wire Wire Line
@@ -1760,7 +1895,7 @@ Connection ~ 19300 6850
 Wire Wire Line
 	2400 6500 2600 6500
 Wire Wire Line
-	2600 5500 2600 10700
+	2600 5500 2600 10800
 Wire Wire Line
 	2600 10700 2400 10700
 Wire Wire Line
@@ -1775,25 +1910,25 @@ Connection ~ 2600 9650
 Wire Wire Line
 	3900 6500 4100 6500
 Wire Wire Line
-	4100 5450 4100 10700
+	4100 5450 4100 10800
 Wire Wire Line
 	4100 10700 3900 10700
 Wire Wire Line
 	5400 6500 5600 6500
 Wire Wire Line
-	5600 5400 5600 10700
+	5600 5400 5600 10800
 Wire Wire Line
 	5600 10700 5400 10700
 Wire Wire Line
 	7100 10700 6900 10700
 Wire Wire Line
-	7100 5350 7100 10700
+	7100 5350 7100 10800
 Wire Wire Line
 	7100 6500 6900 6500
 Wire Wire Line
 	8400 6500 8600 6500
 Wire Wire Line
-	8600 5300 8600 10700
+	8600 5300 8600 10800
 Wire Wire Line
 	8600 10700 8400 10700
 Wire Wire Line
@@ -1810,47 +1945,47 @@ Connection ~ 4100 9650
 Wire Wire Line
 	11400 6500 11600 6500
 Wire Wire Line
-	11600 5200 11600 10700
+	11600 5200 11600 10800
 Wire Wire Line
 	11600 10700 11400 10700
 Wire Wire Line
 	12900 6500 13100 6500
 Wire Wire Line
-	13100 5150 13100 10700
+	13100 5150 13100 10800
 Wire Wire Line
 	13100 10700 12900 10700
 Wire Wire Line
 	14400 6500 14600 6500
 Wire Wire Line
-	14600 5100 14600 9650
+	14600 5100 14600 10800
 Wire Wire Line
 	15900 6500 16100 6500
 Wire Wire Line
-	16100 5050 16100 10700
+	16100 5050 16100 10800
 Wire Wire Line
 	16100 10700 15900 10700
 Wire Wire Line
 	17400 6500 17600 6500
 Wire Wire Line
-	17600 5000 17600 10700
+	17600 5000 17600 10800
 Wire Wire Line
 	17600 10700 17400 10700
 Wire Wire Line
 	18900 6500 19100 6500
 Wire Wire Line
-	19100 4950 19100 10700
+	19100 4950 19100 10800
 Wire Wire Line
 	19100 10700 18900 10700
 Wire Wire Line
 	20400 6500 20600 6500
 Wire Wire Line
-	20600 4900 20600 10700
+	20600 4900 20600 10800
 Wire Wire Line
 	20600 10700 20400 10700
 Wire Wire Line
 	21900 6500 22100 6500
 Wire Wire Line
-	22100 4850 22100 10700
+	22100 4850 22100 10800
 Wire Wire Line
 	22100 10700 21900 10700
 Wire Wire Line
@@ -2067,9 +2202,61 @@ Wire Wire Line
 Connection ~ 10300 10000
 Connection ~ 7300 10000
 Wire Wire Line
-	10100 5250 10100 9650
-Text Label 1800 3650 1    60   ~ 0
-GND
-Text Label 1700 3650 1    60   ~ 0
-GND
+	10100 5250 10100 10800
+Wire Wire Line
+	900  11100 22100 11100
+Connection ~ 4100 11100
+Connection ~ 5600 11100
+Connection ~ 7100 11100
+Connection ~ 8600 11100
+Connection ~ 10100 11100
+Connection ~ 13100 11100
+Connection ~ 16100 11100
+Connection ~ 17600 11100
+Connection ~ 19100 11100
+Connection ~ 20600 11100
+Connection ~ 22100 10700
+Connection ~ 20600 10700
+Connection ~ 19100 10700
+Connection ~ 17600 10700
+Connection ~ 16100 10700
+Connection ~ 13100 10700
+Connection ~ 11600 10700
+Connection ~ 8600 10700
+Connection ~ 7100 10700
+Connection ~ 5600 10700
+Connection ~ 4100 10700
+Connection ~ 2600 10700
+Wire Wire Line
+	1800 3350 1800 3650
+Wire Wire Line
+	900  3350 1800 3350
+Wire Wire Line
+	1700 3350 1700 3650
+Connection ~ 2600 11100
+Connection ~ 1700 3350
+Wire Wire Line
+	900  3350 900  11100
+$Comp
+L R R13
+U 1 1 5A22289E
+P 20600 10950
+F 0 "R13" V 20680 10950 50  0000 C CNN
+F 1 "R" V 20600 10950 50  0000 C CNN
+F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to2512_RM10_HandSoldering" V 20530 10950 50  0001 C CNN
+F 3 "" H 20600 10950 50  0000 C CNN
+	1    20600 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R14
+U 1 1 5A222CFE
+P 22100 10950
+F 0 "R14" V 22180 10950 50  0000 C CNN
+F 1 "R" V 22100 10950 50  0000 C CNN
+F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to2512_RM10_HandSoldering" V 22030 10950 50  0001 C CNN
+F 3 "" H 22100 10950 50  0000 C CNN
+	1    22100 10950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
