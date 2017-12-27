@@ -1,33 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
 LIBS:components
 LIBS:cherry-mx-switch-revised
 LIBS:kb-pcb-cache
@@ -1688,6 +1659,28 @@ F 3 "" H 19100 10950 50  0000 C CNN
 	1    19100 10950
 	1    0    0    -1  
 $EndComp
+$Comp
+L R R13
+U 1 1 5A22289E
+P 20600 10950
+F 0 "R13" V 20680 10950 50  0000 C CNN
+F 1 "R" V 20600 10950 50  0000 C CNN
+F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to2512_RM10_HandSoldering" V 20530 10950 50  0001 C CNN
+F 3 "" H 20600 10950 50  0000 C CNN
+	1    20600 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R14
+U 1 1 5A222CFE
+P 22100 10950
+F 0 "R14" V 22180 10950 50  0000 C CNN
+F 1 "R" V 22100 10950 50  0000 C CNN
+F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to2512_RM10_HandSoldering" V 22030 10950 50  0001 C CNN
+F 3 "" H 22100 10950 50  0000 C CNN
+	1    22100 10950
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	1300 6200 1300 5800
 Wire Wire Line
@@ -2203,8 +2196,6 @@ Connection ~ 10300 10000
 Connection ~ 7300 10000
 Wire Wire Line
 	10100 5250 10100 10800
-Wire Wire Line
-	900  11100 22100 11100
 Connection ~ 4100 11100
 Connection ~ 5600 11100
 Connection ~ 7100 11100
@@ -2237,26 +2228,12 @@ Connection ~ 2600 11100
 Connection ~ 1700 3350
 Wire Wire Line
 	900  3350 900  11100
-$Comp
-L R R13
-U 1 1 5A22289E
-P 20600 10950
-F 0 "R13" V 20680 10950 50  0000 C CNN
-F 1 "R" V 20600 10950 50  0000 C CNN
-F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to2512_RM10_HandSoldering" V 20530 10950 50  0001 C CNN
-F 3 "" H 20600 10950 50  0000 C CNN
-	1    20600 10950
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R14
-U 1 1 5A222CFE
-P 22100 10950
-F 0 "R14" V 22180 10950 50  0000 C CNN
-F 1 "R" V 22100 10950 50  0000 C CNN
-F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to2512_RM10_HandSoldering" V 22030 10950 50  0001 C CNN
-F 3 "" H 22100 10950 50  0000 C CNN
-	1    22100 10950
-	1    0    0    -1  
-$EndComp
+Wire Wire Line
+	900  11100 22100 11100
+Wire Wire Line
+	11600 11100 11600 11100
+Connection ~ 11600 11100
+Wire Wire Line
+	14600 11100 14600 11100
+Connection ~ 14600 11100
 $EndSCHEMATC
