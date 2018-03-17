@@ -27,7 +27,7 @@ Layer-Up has a numpad.
 Mouse puts cursor controls on the right side of the keyboard, with cursor speed controls operated by the left hand.
 
 ## Customizing the keyboard
-My firmware allows for easy remapping of keys on any layer. `layermaps.h` includes the behavior of every key. Each key can take one of the following functions:
+My firmware allows for easy remapping of keys on any layer. `layermaps.c` includes the behavior of every key. Each key can take one of the following functions:
 
 | Function | Description                                                                     | Examples                                                                 |
 |----------|---------------------------------------------------------------------------------|--------------------------------------------------------------------------|

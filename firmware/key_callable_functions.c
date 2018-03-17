@@ -11,12 +11,13 @@ void resetToBootloader(uint8_t pressed) {
         asm volatile("jmp 0x7E00");
 }
 
-//Compile-time function generator for layer toggle functions
-#define TOGGLE_FUNCTION(functionName, layer)\
-        void functionName(uint8_t pressed) {\
+//Compile-time function generator for layer toggle functions.
+//Used to access layers while holding a modifier key.
+#define TOGGLE_FUNCTION(layer)\
+        void toggleLayer_ ## layer(uint8_t pressed) {\
                 if(pressed) {\
                         next_layer = current_layer;\
-                        current_layer = layer;\
+                        current_layer = layer ## _l;\
                 }\
                 else {\
                         current_layer = next_layer;\
@@ -24,29 +25,44 @@ void resetToBootloader(uint8_t pressed) {
                 }\
         }
 
-//Compile-time function generator for layer target functions
-#define TARGET_FUNCTION(functionName, layer)\
-        void functionName(uint8_t pressed) {\
+//Compile-time function generator for layer target functions.
+//Used to access layers that can be active without holding a
+//modifier key.
+#define TARGET_FUNCTION(layer)\
+        void targetLayer_ ## layer(uint8_t pressed) {\
                 if(pressed) {\
-                        next_layer = layer;\
+                        next_layer = layer ## _l;\
                 }\
         }
 
-//Layer toggle functions. Create one for each layer that
-//should be active while holding a modifier key.
-TOGGLE_FUNCTION(toggleLayer_LRDN, LRDN_l)
-TOGGLE_FUNCTION(toggleLayer_LRUP, LRUP_l)
-TOGGLE_FUNCTION(toggleLayer_FN, FN_l)
-TOGGLE_FUNCTION(toggleLayer_MIDI, MIDI_l)
-TOGGLE_FUNCTION(toggleLayer_QWERTY, QWERTY_l)
-TOGGLE_FUNCTION(toggleLayer_COLEMAK, COLEMAK_l)
-TOGGLE_FUNCTION(toggleLayer_MOUSE, MOUSE_l)
+//Compile-time function generator for both layer target and
+//layer toggle functions
+#define LAYER_FUNCTIONS(layer)\
+	TOGGLE_FUNCTION(layer)\
+	TARGET_FUNCTION(layer)
 
-//Layer target functions. Create one for each layer that
-//should be active without holding a modifier key.
-TARGET_FUNCTION(targetLayer_COLEMAK, COLEMAK_l)
-TARGET_FUNCTION(targetLayer_QWERTY, QWERTY_l)
-TARGET_FUNCTION(targetLayer_MIDI, MIDI_l)
+//Add lines here for each defined layer
+LAYER_FUNCTIONS(QWERTY)
+LAYER_FUNCTIONS(COLEMAK)
+LAYER_FUNCTIONS(FN)
+LAYER_FUNCTIONS(LRDN)
+LAYER_FUNCTIONS(LRUP)
+LAYER_FUNCTIONS(MIDI)
+LAYER_FUNCTIONS(MOUSE)
+
+//Compile-time function generator for mouse speed functions.
+//Used to toggle the speed of the cursor when using mouse
+//movement keys
+#define MOUSESPEED(speed)\
+	void mouseSpeed_ ## speed(uint8_t pressed) {\
+		if(pressed) mouse_speed = speed;\
+	}
+
+//Add lines here for each desired mouse speed
+MOUSESPEED(0)
+MOUSESPEED(1)
+MOUSESPEED(2)
+MOUSESPEED(3)
 
 //MIDI pitch-shift keys
 void increasePitch(uint8_t pressed) {
@@ -57,18 +73,4 @@ void decreasePitch(uint8_t pressed) {
 }
 void resetPitch(uint8_t pressed) {
         if(pressed) pshift = 0;
-}
-
-//Mouse speed toggle keys
-void mouseSpeed_0(uint8_t pressed) {
-        if(pressed) mouse_speed = 0;
-}
-void mouseSpeed_1(uint8_t pressed) {
-        if(pressed) mouse_speed = 1;
-}
-void mouseSpeed_2(uint8_t pressed) {
-        if(pressed) mouse_speed = 2;
-}
-void mouseSpeed_3(uint8_t pressed) {
-        if(pressed) mouse_speed = 3;
 }
