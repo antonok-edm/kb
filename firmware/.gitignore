@@ -6,3 +6,4 @@
 *.map
 *.sym
 obj/*
+layermaps.c.bak

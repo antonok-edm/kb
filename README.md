@@ -14,6 +14,8 @@ Features:
 - multiple function layers
 
 ## My setup
+The keyboard's layouts are designed to be reprogrammed as needed. The user is free to assign keys to any HID-compliant controls or internal function calls at will. In this section, I describe the layouts that I use, included as a sample in this repository.
+
 I currently have 7 different layers defined on my keyboard: Colemak, Qwerty, MIDI, Fn, Layer-Up, Layer-Down, and Mouse.
 
 MIDI has a 4x12 grid of chromatic MIDI keys, providing 4 octaves of pitch-shiftable notes.
@@ -27,13 +29,18 @@ Layer-Up has a numpad.
 Mouse puts cursor controls on the right side of the keyboard, with cursor speed controls operated by the left hand.
 
 ## Customizing the keyboard
-My firmware allows for easy remapping of keys on any layer. `layermaps.c` includes the behavior of every key. Each key can take one of the following functions:
+The tool [kb-layout-manager](https://github.com/antonok-edm/kb-layout-manager) was created to make layout customization extremely easy and intuitive.
+Manual customization is still possible by modifying the `layermaps.c` file.
+
+`layermaps.c` includes the behavior of every key. Each key can take one of the following functions:
 
 | Function | Description                                                                     | Examples                                                                 |
 |----------|---------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | HID      | Any standard keyboard key                                                       | <kbd>a</kbd>, <kbd>1</kbd>, <kbd>;</kbd>                                 |
 | MOD      | At least one standard keyboard modifier                                         | <kbd>Left shift</kbd>, <kbd>Right control</kbd>                          |
 | MIDI     | Any MIDI pitch                                                                  | C0 to G10                                                                |
+| TOGGLE   | Switch to a different layer                                                     | Change to MIDI layer, switch to QWERTY layout                            |
+| TARGET   | Switch to a different layer while the key is held (modifier-style)              | Access FN keys, use temporary layer shifts                               |
 | FUNC     | Any arbitrary predefined function from the firmware                             | shift MIDI pitch, switch function layer                                  |
 | CLICK    | Execute a click an HID mouse button                                             | left click, middle click, forward/back                                   |
 | MOUSE    | Move the mouse cursor                                                           | horizontal or vertical                                                   |
