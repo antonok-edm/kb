@@ -20,9 +20,10 @@
  *   - Check "Use auxiliary axis as origin"
  */
 
-//This takes just under 6 minutes to render on my computer.
-//Setting $fn to 15 renders very quickly with decent results.
-$fn=400;
+//Setting $fn to 400 creates very smooth curves, but takes a few
+//minutes to render.
+//Setting $fn to a lower value is recommended during development.
+$fn=15;
 HEIGHT=16;
 CORNER_RADIUS=5;
 BEVEL_RADIUS=1;
