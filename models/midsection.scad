@@ -1,7 +1,7 @@
 /* 
  * Keyboard midsection
  * Author: Anton Lazarev
- * https://github.com/antonok-edm/kb
+ * https://gitlab.com/antonok/kb
  *
  * Units are in millimeters.
  */

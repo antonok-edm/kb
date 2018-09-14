@@ -29,7 +29,7 @@ Layer-Up has a numpad.
 Mouse puts cursor controls on the right side of the keyboard, with cursor speed controls operated by the left hand.
 
 ## Customizing the keyboard
-The tool [kb-layout-manager](https://github.com/antonok-edm/kb-layout-manager) was created to make layout customization extremely easy and intuitive.
+The tool [kb-layout-manager](https://gitlab.com/antonok/kb-layout-manager) was created to make layout customization extremely easy and intuitive.
 Manual customization is still possible by modifying the `layermaps.c` file.
 
 `layermaps.c` includes the behavior of every key. Each key can take one of the following functions:
