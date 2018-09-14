@@ -1,0 +1,3 @@
+[submodule "firmware/layermaps"]
+	path = firmware/layermaps
+	url = https://gitlab.com/antonok/layermaps

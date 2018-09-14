@@ -20,7 +20,7 @@
 
 //Layermaps.c is included inline because it provides global constant array definitions.
 //Using forward declarations would add another step to configuration.
-#include "layermaps.c"
+#include "layermaps/layermaps.c"
 
 #undef NONE
 #undef HID
