@@ -14,7 +14,7 @@
    -  multiple function layers
 
   All work on the keyboard, including mechanical design, PCB design, and
-  coding was completed by Anton Lazarev    ---    http://www.antonok.com
+  coding was completed by Anton Lazarev     ---     https://antonok.com
 
   This program implements Dean Camera's LUFA Library for USB compatibility.
   Copyright information for LUFA can be found at www.lufa-lib.org.
@@ -175,31 +175,33 @@ bool CALLBACK_HID_Device_CreateHIDReport(USB_ClassInfo_HID_Device_t* const HIDIn
                                          const uint8_t ReportType,
                                          void* ReportData,
                                          uint16_t* const ReportSize) {
-        if(stopped) {
-                *ReportSize = sizeof(USB_KeyboardReport_Data_t);
-                return true;
-        }
         if(HIDInterfaceInfo == &Keyboard_HID_Interface) {
-                uint8_t UsedKeyCodes = 0;
-                //In report mode, up to 14 keypresses can be registered at once.
-                if (HIDInterfaceInfo->State.UsingReportProtocol) {
-                        USB_ExtendedKeyboardReport_Data_t* KeyboardReport = (USB_ExtendedKeyboardReport_Data_t*)ReportData;
-                        read_from_mapping_HID(&KeyboardReport->Modifier, KeyboardReport->KeyCode,&UsedKeyCodes, *current_map);
-                        checkRolloverError(KeyboardReport->KeyCode, &UsedKeyCodes, 14);
-                        *ReportSize = sizeof(USB_ExtendedKeyboardReport_Data_t);
-                }
-                else {  //In boot protocol mode, up to 6 keypresses can be registered at once.
-                        USB_KeyboardReport_Data_t* KeyboardReport = (USB_KeyboardReport_Data_t*)ReportData;
-                        read_from_mapping_HID(&KeyboardReport->Modifier, KeyboardReport->KeyCode,&UsedKeyCodes, *current_map);
-                        checkRolloverError(KeyboardReport->KeyCode, &UsedKeyCodes, 6);
+                if(stopped) {
                         *ReportSize = sizeof(USB_KeyboardReport_Data_t);
+                        return false;
                 }
-                //Returning false lets LUFA determine whether or not to send the report.
-                //Returning true forces sending.
-                return true;
+                else {
+                        uint8_t UsedKeyCodes = 0;
+                        //In report mode, up to 14 keypresses can be registered at once.
+                        if (HIDInterfaceInfo->State.UsingReportProtocol) {
+                                USB_ExtendedKeyboardReport_Data_t* KeyboardReport = (USB_ExtendedKeyboardReport_Data_t*) ReportData;
+                                read_from_mapping_HID(&KeyboardReport->Modifier, KeyboardReport->KeyCode, &UsedKeyCodes, *current_map);
+                                checkRolloverError(KeyboardReport->KeyCode, &UsedKeyCodes, 14);
+                                *ReportSize = sizeof(USB_ExtendedKeyboardReport_Data_t);
+                        }
+                        else {  //In boot protocol mode, up to 6 keypresses can be registered at once.
+                                USB_KeyboardReport_Data_t* KeyboardReport = (USB_KeyboardReport_Data_t*) ReportData;
+                                read_from_mapping_HID(&KeyboardReport->Modifier, KeyboardReport->KeyCode, &UsedKeyCodes, *current_map);
+                                checkRolloverError(KeyboardReport->KeyCode, &UsedKeyCodes, 6);
+                                *ReportSize = sizeof(USB_KeyboardReport_Data_t);
+                        }
+                        //Returning false lets LUFA determine whether or not to send the report.
+                        //Returning true forces sending.
+                        return true;
+                }
         }
         else {  //Mouse Report
-                USB_Mouse_HScrollReport_Data_t* MouseReport = (USB_Mouse_HScrollReport_Data_t*)ReportData;
+                USB_Mouse_HScrollReport_Data_t* MouseReport = (USB_Mouse_HScrollReport_Data_t*) ReportData;
                 read_from_mapping_MOUSE(&MouseReport->Button, &MouseReport->X, &MouseReport->Y,
                                         &MouseReport->Pan, &MouseReport->Scroll, *current_map);
 
