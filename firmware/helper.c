@@ -26,9 +26,9 @@ void checkKeyPresses(void) {
 //and store the previous state of the keyboard for the next loop.
 void updateKeyChanges(void) {
     for(uint8_t n = 0; n < ROWS; n++)
-            row_changes[n] = row[n] ^ prev_row[n];
+        row_changes[n] = row[n] ^ prev_row[n];
     for(uint8_t n = 0; n < ROWS; n++)
-            prev_row[n] = row[n];
+        prev_row[n] = row[n];
 }
 
 //Helper function to check if a specific key is pressed.
@@ -44,7 +44,7 @@ bool key_changed(uint8_t row_num, uint8_t column) {
 //Helper function to check if all keys are released.
 bool no_keys_pressed(void) {
     for (int i = 0; i < ROWS; i++) {
-            if(row[i]) return false;
+        if(row[i]) return false;
     }
     return true;
 }
@@ -95,10 +95,10 @@ void doKeyMIDItasks(void) {
 // Call any functions pointed to by a key that was just pressed or released.
 void read_from_mapping_FUNC(const key key_mapping[ROWS][COLS]) {
     for(uint8_t i = 0; i < ROWS; i++) {
-            for(uint8_t j = 0; j < COLS; j++) {
-                    if(key_changed(i, j) && key_mapping[i][j].type == FUNC_t)
-                            ((void (*)(uint8_t))key_mapping[i][j].data)(key_pressed(i,j));
-            }
+        for(uint8_t j = 0; j < COLS; j++) {
+            if(key_changed(i, j) && key_mapping[i][j].type == FUNC_t)
+                ((void (*)(uint8_t))key_mapping[i][j].data)(key_pressed(i,j));
+        }
     }
 }
 
@@ -109,18 +109,18 @@ void read_from_mapping_HID(uint8_t* Modifier,
                            uint8_t* UsedKeyCodes,
                            const key key_mapping[ROWS][COLS]) {
     for(uint8_t i = 0; i < ROWS; i++) {
-            for(uint8_t j = 0; j < COLS; j++) {
-                    if(key_pressed(i, j)) {
-                            if(key_mapping[i][j].type == HID_t)
-                                    KeyCodes[(*UsedKeyCodes)++] = (uint8_t) key_mapping[i][j].data;
-                            else if(key_mapping[i][j].type == MOD_t)
-                                    *Modifier |= (uint8_t) key_mapping[i][j].data;
-                            else if(key_mapping[i][j].type == HIDMOD_t) {
-                                    KeyCodes[(*UsedKeyCodes)++] = (uint8_t) (key_mapping[i][j].data >> 8);
-                                    *Modifier |= (uint8_t) key_mapping[i][j].data;
-                            }
-                    }
+        for(uint8_t j = 0; j < COLS; j++) {
+            if(key_pressed(i, j)) {
+                if(key_mapping[i][j].type == HID_t)
+                    KeyCodes[(*UsedKeyCodes)++] = (uint8_t) key_mapping[i][j].data;
+                else if(key_mapping[i][j].type == MOD_t)
+                    *Modifier |= (uint8_t) key_mapping[i][j].data;
+                else if(key_mapping[i][j].type == HIDMOD_t) {
+                    KeyCodes[(*UsedKeyCodes)++] = (uint8_t) (key_mapping[i][j].data >> 8);
+                    *Modifier |= (uint8_t) key_mapping[i][j].data;
+                }
             }
+        }
     }
 }
 
