@@ -9,17 +9,21 @@
 
 void resetToBootloader(uint8_t pressed);
 
-void toggleLayer_LRDN(uint8_t pressed);
-void toggleLayer_LRUP(uint8_t pressed);
-void toggleLayer_FN(uint8_t pressed);
-void toggleLayer_MIDI(uint8_t pressed);
-void toggleLayer_QWERTY(uint8_t pressed);
-void toggleLayer_COLEMAK(uint8_t pressed);
-void toggleLayer_MOUSE(uint8_t pressed);
+void toggleLayer_0(uint8_t pressed);
+void toggleLayer_1(uint8_t pressed);
+void toggleLayer_2(uint8_t pressed);
+void toggleLayer_3(uint8_t pressed);
+void toggleLayer_4(uint8_t pressed);
+void toggleLayer_5(uint8_t pressed);
+void toggleLayer_6(uint8_t pressed);
 
-void targetLayer_COLEMAK(uint8_t pressed);
-void targetLayer_QWERTY(uint8_t pressed);
-void targetLayer_MIDI(uint8_t pressed);
+void targetLayer_0(uint8_t pressed);
+void targetLayer_1(uint8_t pressed);
+void targetLayer_2(uint8_t pressed);
+void targetLayer_3(uint8_t pressed);
+void targetLayer_4(uint8_t pressed);
+void targetLayer_5(uint8_t pressed);
+void targetLayer_6(uint8_t pressed);
 
 void increasePitch(uint8_t pressed);
 void decreasePitch(uint8_t pressed);

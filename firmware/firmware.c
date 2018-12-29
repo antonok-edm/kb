@@ -124,15 +124,7 @@ void initPins(void) {
 
 // Match each keyboard layer name to a keymap
 void setCurrentKeyMap(void) {
-    switch(current_layer) {
-        case FN_l: current_map = &FN_map; break;
-        case LRDN_l: current_map = &LRDN_map; break;
-        case LRUP_l: current_map = &LRUP_map; break;
-        case MOUSE_l: current_map = &MOUSE_map; break;
-        case MIDI_l: current_map = &MIDI_map; break;
-        case QWERTY_l: current_map = &QWERTY_map; break;
-        case COLEMAK_l: current_map = &COLEMAK_map; break;
-    }
+    current_map = &keymap_layers[current_layer];
 }
 
 // Event handler for the library USB Connection event.

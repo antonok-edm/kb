@@ -13,7 +13,8 @@
 #define SCROLL_Y(amount)                (key){SCROLL_Y_t, (uint16_t) amount}
 #define HIDMOD(hidcode, modcode)        (key){HIDMOD_t, ((uint16_t) hidcode << 8) + (modcode)}
 
-#define KEYMAP(layer) const key layer ## _map[ROWS][COLS] = 
+#define BEGIN_KEYMAPS const key keymap_layers[][ROWS][COLS] = {
+#define END_KEYMAPS };
 
 #define TOGGLE(layer) FUNC(toggleLayer_ ## layer)
 #define TARGET(layer) FUNC(targetLayer_ ## layer)

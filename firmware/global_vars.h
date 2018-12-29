@@ -15,8 +15,8 @@
 /** Key chatter delay **/
 #define KEY_CHATTER_DELAY_MS 4
 
-extern enum layer current_layer;
-extern enum layer next_layer;
+extern uint8_t current_layer;
+extern uint8_t next_layer;
 extern const key (*current_map)[ROWS][COLS];
 extern uint8_t stopped;
 extern uint8_t mouse_speed;

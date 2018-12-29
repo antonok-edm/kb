@@ -1,16 +1,6 @@
 #ifndef TYPEDEFS_H
 #define TYPEDEFS_H
 
-enum layer {
-    COLEMAK_l,
-    QWERTY_l,
-    FN_l,
-    LRUP_l,
-    LRDN_l,
-    MIDI_l,
-    MOUSE_l
-};
-
 enum key_type {
     NONE_t,
     HID_t,

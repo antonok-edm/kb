@@ -1,7 +1,7 @@
 #include "global_vars.h"
 
-enum layer current_layer = COLEMAK_l;
-enum layer next_layer = COLEMAK_l;
+uint8_t current_layer = 0;
+uint8_t next_layer = 0;
 const key (*current_map)[ROWS][COLS];
 //Marker for the keyboard to pause functionality after a layer toggle
 //has been released, but other keys are still held.

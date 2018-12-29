@@ -17,7 +17,7 @@ void resetToBootloader(uint8_t pressed) {
     void toggleLayer_ ## layer(uint8_t pressed) {\
         if(pressed) {\
             next_layer = current_layer;\
-            current_layer = layer ## _l;\
+            current_layer = layer;\
         }\
         else {\
             current_layer = next_layer;\
@@ -31,7 +31,7 @@ void resetToBootloader(uint8_t pressed) {
 #define TARGET_FUNCTION(layer)\
     void targetLayer_ ## layer(uint8_t pressed) {\
         if(pressed) {\
-            next_layer = layer ## _l;\
+            next_layer = layer;\
         }\
     }
 
@@ -42,13 +42,13 @@ void resetToBootloader(uint8_t pressed) {
     TARGET_FUNCTION(layer)
 
 //Add lines here for each defined layer
-LAYER_FUNCTIONS(QWERTY)
-LAYER_FUNCTIONS(COLEMAK)
-LAYER_FUNCTIONS(FN)
-LAYER_FUNCTIONS(LRDN)
-LAYER_FUNCTIONS(LRUP)
-LAYER_FUNCTIONS(MIDI)
-LAYER_FUNCTIONS(MOUSE)
+LAYER_FUNCTIONS(0)
+LAYER_FUNCTIONS(1)
+LAYER_FUNCTIONS(2)
+LAYER_FUNCTIONS(3)
+LAYER_FUNCTIONS(4)
+LAYER_FUNCTIONS(5)
+LAYER_FUNCTIONS(6)
 
 //Compile-time function generator for mouse speed functions.
 //Used to toggle the speed of the cursor when using mouse
