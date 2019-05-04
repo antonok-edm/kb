@@ -1,3 +1,6 @@
 [submodule "firmware/layermaps"]
 	path = firmware/layermaps
 	url = https://gitlab.com/antonok/layermaps
+[submodule "pcb/teensy.pretty"]
+	path = pcb/teensy.pretty
+	url = https://github.com/XenGi/teensy.pretty
